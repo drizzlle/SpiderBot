@@ -30,10 +30,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = True
 
-ALLOWED_HOSTS = ["truckapp-xq3x.onrender.com", "127.0.0.1", "localhost"]
-CSRF_TRUSTED_ORIGINS = ["https://truckapp-xq3x.onrender.com", "https://127.0.0.1:8000"]
-CSRF_ALLOWED_ORIGINS = ["https://truckapp-xq3x.onrender.com", "https://127.0.0.1:8000"]
-CORS_ORIGINS_WHITELIST = ["https://truckapp-xq3x.onrender.com", "https://127.0.0.1:8000"]
+ALLOWED_HOSTS = ["spiderbot-p1x3.onrender.com", "127.0.0.1", "localhost"]
+CSRF_TRUSTED_ORIGINS = ["https://spiderbot-p1x3.onrender.com", "https://127.0.0.1:8000"]
+CSRF_ALLOWED_ORIGINS = ["https://spiderbot-p1x3.onrender.com", "https://127.0.0.1:8000"]
+CORS_ORIGINS_WHITELIST = ["https://spiderbot-p1x3.onrender.com", "https://127.0.0.1:8000"]
 
 #Rest Framework Configuration
 REST_FRAMEWORK = {
